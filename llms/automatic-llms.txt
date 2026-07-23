@@ -1,0 +1,34 @@
+# Automatic (Automatic Labs, Inc.)
+
+> DEFUNCT. Automatic Labs was a San Francisco connected-car company (founded 2011 by Thejo
+> Kote and Jerry Jariyasunant) whose OBD-II adapter and mobile app turned any car built since
+> 1996 into a connected car. It ran the Automatic Developer Platform — a REST API for trip and
+> vehicle data, an Events API delivering driving events over webhooks and websockets, and a
+> private-beta Bluetooth Streaming SDK for raw OBD-II data. SiriusXM acquired the company on
+> 2017-04-27 for approximately $115M; all operations ceased on 2020-05-28. No API, developer
+> portal, or documentation remains online, and the automatic.com domain now belongs to
+> Automattic. This profile is a historical record only.
+
+## Status
+
+- Company status: defunct (shut down 2020-05-28)
+- API status: retired — no live host, no OpenAPI or AsyncAPI ever recovered
+- Domain: automatic.com no longer belongs to this company (redirects to automattic.com)
+
+## Repository artifacts
+
+- [Lifecycle](lifecycle/automatic-lifecycle.yml): acquisition, shutdown, and the archived historical API surface
+- [Packages](packages/automatic-packages.yml): the one surviving first-party npm package plus retired SDK languages
+
+## Historical references
+
+- [Archived developer portal (2019-10-06)](http://web.archive.org/web/20191006121606/https://developer.automatic.com/)
+- [SiriusXM acquisition announcement (2017-04-27)](https://investor.siriusxm.com/news-events/press-releases/detail/1777/siriusxm-acquires-automatic-labs-inc)
+- [Shutdown coverage (2020-05-01)](https://9to5mac.com/2020/05/01/automatic-labs-shutting-down/)
+- [GitHub archive organization](https://github.com/Automatic)
+
+## Notes for agents
+
+- Do not attempt to call any api.automatic.com or developer.automatic.com endpoint; the hosts
+  no longer serve this company.
+- Do not confuse Automatic (Automatic Labs, connected car) with Automattic (WordPress.com).

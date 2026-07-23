@@ -1,0 +1,34 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.npmjs.com/package/@automatic-labs/ui-components
+note: >-
+  Automatic Labs is defunct (operations ceased 2020-05-28). No first-party API client SDK
+  survives on any public registry. Registries probed 2026-07-19: npm, PyPI, RubyGems,
+  Packagist, pkg.go.dev, Maven Central, NuGet, crates.io. The one first-party package still
+  published is a frontend component library, not an API client, so no `SDKs` pointer is
+  emitted for this repo.
+packages:
+- language: javascript
+  registry: npm
+  name: "@automatic-labs/ui-components"
+  url: https://www.npmjs.com/package/@automatic-labs/ui-components
+  install: npm install @automatic-labs/ui-components
+  description: Automatic Frontend Components
+  repository: https://github.com/Automatic/ui-components
+  latest_version: 2.8.12
+  last_published: '2018-12-17'
+  official: true
+  api_client: false
+  status: unmaintained
+retired_packages:
+  note: >-
+    The archived developer portal (2019-10-06) advertised iOS, Android, node.js, Ruby and
+    PHP client libraries. None were located on a public registry or in the github.com/Automatic
+    organization on 2026-07-19; they are recorded as retired, not fabricated.
+  languages:
+  - ios
+  - android
+  - nodejs
+  - ruby
+  - php
+  source: http://web.archive.org/web/20191006121606/https://developer.automatic.com/

@@ -1,22 +1,74 @@
 aid: automatic
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/automatic.png
 name: Automatic
-description: Automatic is a company surfaced as a portfolio company of anthemis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Automatic (Automatic Labs, Inc.) was a San Francisco connected-car company founded in 2011
+  by Thejo Kote and Jerry Jariyasunant. Its OBD-II adapter and companion mobile app turned
+  almost any car built since 1996 into a connected car, adding trip logging, fuel and MPG
+  tracking, engine-light diagnostics, parking recall, and automatic crash alerts. Automatic
+  ran a public developer platform at developer.automatic.com built around three surfaces: a
+  REST API exposing trip, user, and vehicle data; an Events API delivering real-time driving
+  events such as ignition on/off, hard braking, acceleration, speeding, and location changes
+  over webhooks and websockets; and a private-beta Streaming SDK that read raw OBD-II data
+  from the second-generation adapter over Bluetooth. SiriusXM acquired the company on
+  2017-04-27 for approximately $115 million, and all operations were shut down on 2020-05-28.
+  THIS COMPANY IS DEFUNCT — no API, developer portal, or documentation remains online, and
+  the automatic.com domain now belongs to the unrelated company Automattic. This profile is
+  retained as a historical record of a notable connected-car API platform.
 url: https://raw.githubusercontent.com/api-evangelist/automatic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - anthemis
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-no-api-surface
+x-status: defunct
+x-sunset-date: '2020-05-28'
+x-acquired-by: SiriusXM
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Automotive
+- Connected Car
+- Telematics
+- Internet of Things
+- Vehicle Data
+- OBD-II
+- Defunct
 apis: []
+common:
+- type: Lifecycle
+  name: Lifecycle
+  url: lifecycle/automatic-lifecycle.yml
+- type: Packages
+  name: Packages
+  url: packages/automatic-packages.yml
+- type: LLMsTxt
+  name: LLMs.txt
+  url: llms/automatic-llms.txt
+- type: GitHubOrganization
+  name: GitHub Organization
+  url: https://github.com/Automatic
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

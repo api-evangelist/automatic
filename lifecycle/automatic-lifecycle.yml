@@ -1,0 +1,73 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.slashgear.com/automatic-labs-connected-car-dongle-shutdown-iot-siriusxm-01618989/
+name: Automatic (Automatic Labs, Inc.)
+status: sunset
+summary: >-
+  The Automatic Developer Platform (REST API, Events API via webhooks/websockets,
+  and a private-beta Bluetooth Streaming SDK) is permanently retired. Automatic Labs
+  ceased all operations on 2020-05-28 and no developer surface, API host, portal, or
+  documentation remains online.
+company:
+  founded: 2011
+  headquarters: San Francisco, CA, US
+  founders:
+  - Thejo Kote
+  - Jerry Jariyasunant
+acquisition:
+  acquirer: SiriusXM (Sirius XM Holdings Inc.)
+  announced: '2017-04-27'
+  price_usd: 115000000
+  source: https://investor.siriusxm.com/news-events/press-releases/detail/1777/siriusxm-acquires-automatic-labs-inc
+shutdown:
+  announced: '2020-05-01'
+  effective: '2020-05-28'
+  scope: all services and features, including the developer platform and third-party app integrations
+  reason_published: >-
+    "With fewer consumers purchasing and leasing vehicles and drivers on the road, we
+    unfortunately do not see a path forward for our business." (COVID-19 impact)
+  sources:
+  - https://www.slashgear.com/automatic-labs-connected-car-dongle-shutdown-iot-siriusxm-01618989/
+  - https://9to5mac.com/2020/05/01/automatic-labs-shutting-down/
+  - https://www.digitaltrends.com/cars/automatic-labs-shutdown-covid-19/
+domain:
+  domain: automatic.com
+  owned_by_provider: false
+  note: >-
+    automatic.com no longer belongs to Automatic Labs. As probed 2026-07-19 it resolves to
+    WordPress.com/Automattic infrastructure (192.0.78.24, 192.0.78.25) and 301s to
+    https://automattic.com/. No /.well-known/, TLS, or DNS posture on this domain can be
+    attributed to Automatic Labs, so no domain-security artifact was recorded.
+  probed: '2026-07-19'
+  probe_result: 200 -> https://automattic.com/
+historical_api_surface:
+  note: >-
+    Recorded from the archived developer portal for historical accuracy only. NONE of these
+    endpoints are live; no OpenAPI or AsyncAPI was ever published or recovered.
+  archived_portal: http://web.archive.org/web/20191006121606/https://developer.automatic.com/
+  archived_status: 200
+  captured: '2019-10-06'
+  apis:
+  - name: Automatic REST API
+    description: Trip logs and user data — distance, start/end times, route, MPG, plus user and vehicle metadata.
+    status: retired
+  - name: Automatic Events API
+    description: Real-time driving events over webhooks and websockets — ignition on/off, hard brake, acceleration, speeding, location change, check-engine status.
+    status: retired
+  - name: Automatic Streaming SDK
+    description: Private beta. Streamed raw OBD-II data directly from the 2nd-generation Automatic adapter over Bluetooth.
+    status: retired
+  historical_sdk_languages:
+  - ios
+  - android
+  - nodejs
+  - ruby
+  - php
+  historical_sdk_note: >-
+    The archived portal advertised iOS, Android, node.js, Ruby and PHP libraries. The
+    corresponding repositories are no longer present in the github.com/Automatic
+    organization (17 public repos as of 2026-07-19, none of them API client SDKs).
+status_page: null
+deprecation_policy: null
+sla: null
+deprecated_operations: []
