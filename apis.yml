@@ -46,7 +46,7 @@ x-tier: stub
 x-tier-reason: defunct-no-api-surface
 x-status: defunct
 x-sunset-date: '2020-05-28'
-x-acquired-by: SiriusXM
+x-acquired-by: sirius-xm
 specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
@@ -59,6 +59,7 @@ tags:
 - Vehicle Data
 - OBD-II
 - Defunct
+- Mobile
 tags_raw:
 - Company
 - Automotive
@@ -68,6 +69,7 @@ tags_raw:
 - Vehicle Data
 - OBD-II
 - Defunct
+- Mobile
 apis: []
 common:
 - type: Lifecycle
